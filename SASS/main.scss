@@ -1,8 +1,6 @@
 @import "Base/reset";
 @import "Utils/mixins";
 @import "Utils/variables";
-
-
 //@import "./utils/extensions";
 @import "Base/typography";
 //@import "Composants/buttons";
@@ -13,6 +11,18 @@
 //@import "./pages/work";
 //@import "./pages/about";
 //@import "./pages/project";
+
+header {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    h1 {
+        font-size: 34px;
+        font-weight: bold;
+        color: teal;
+    }
+}
 
 .carousel-container {
     width: 60%;
@@ -46,4 +56,11 @@
     color: white;
     opacity: 0.7;
     cursor: pointer;
+}
+
+.gif{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
